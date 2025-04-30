@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos Turisticos</title>
+    <link rel="icon" type="imagem"
+    href="https://img.cdndsgni.com/preview/10996772.jpg">
+    <link rel="stylesheet" type="text/css" href="Minha pagina.css" media="screen" /> 
+</head>
+
+<body>
+    <div class="menu" onclick="toggleMenu()">
+        ☰ Menu
+        <div class="menu-items" id="menuItems">
+            <a href="index.html">Home</a>
+            <a href="">Estacio</a>
+            <a href="Aluno.html">Aluno</a>
+            <a href="Aula 3 topico 4 exemplos.html">Formulario</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menuItems");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+        
+       
+        document.addEventListener("click", function(event) {
+            var menu = document.getElementById("menuItems");
+            var button = document.querySelector(".menu");
+            if (!button.contains(event.target)) {
+                menu.style.display = "none";
+            }
+        });
+    </script>
+    <body>
+
+<video width="1920" height="1080" autoplay controls>
+    <source src="Vídeo do WhatsApp de 2025-04-16 à(s) 12.10.21_2f868efe.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+    </body>

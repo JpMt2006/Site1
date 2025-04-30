@@ -1,0 +1,141 @@
+body{
+    background-color: lightgreen;
+    
+        }
+    A:link {
+        display: flex;
+        
+        margin-top: 10px;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+    }
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745 #28a745 #1e7e34;
+        color: #FFF;
+    }
+    
+    .btn-success:hover, .btn-success.hover {
+        background-color: #2fc652;
+        border-color: #34ce57 #34ce57 #28a745;
+        color: #FFF;
+    }
+    
+    .btn-success:focus, .btn-success.focus {
+        box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+    }
+    
+    .btn-success.disabled, .btn-success:disabled {
+        background-color: #28a745;
+        border-color: #28a745 #28a745 #1e7e34;
+    }
+    
+    .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
+        background-color: #218838;
+        background-image: none;
+        border-color: #1e7e34 #1e7e34 #145523;}
+   
+        .btn-rounded {
+            border-radius: 35px;
+        }
+        
+        /* Rounded */
+        .btn-rounded-icon {
+            border-radius: 2px;
+            padding: 0;
+            width: 2px;
+            height: 2px;
+            display:inline-block:
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .btn-rounded-icon[data-hash] > i {
+            pointer-events: none;
+        }
+        
+   
+        iframe {
+        width: 600px;
+        height: 450px;
+    }
+    .MAPA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100;
+    
+    }
+    h3{
+        justify-content: center;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+        
+    }
+
+    .destaque {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    color: darkblue;
+    font-family: "libre" ;
+    
+    }
+    .center {
+    text-align: center;
+    justify-content: center;
+    
+    }
+    .Titulo {
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;  
+        font-family: "nunito" ;
+    }
+    
+    .menu {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background-color: #333;
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .menu-items {
+                display: none;
+                position: absolute;
+                top: 40px;
+                right: 0;
+                background: white;
+                color: black;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+                overflow: hidden;
+            }
+            .menu-items a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: black;
+            }
+            .menu-items a:hover {
+                background: #ddd;
+            }
+  @font-face {
+    font-family:"nunito";
+    src: url(Nunito-VariableFont_wght.woff2);
+}
+@font-face {
+    font-family:"libre";
+    src: url(LibreBaskerville-Regular.ttf);
+}
+@font-face {
+    font-family:"";
+    src: url();
+}

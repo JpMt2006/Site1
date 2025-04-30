@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno</title>
+    <link rel="icon" type="imagem"
+    href="https://img.cdndsgni.com/preview/10996772.jpg">
+    <link rel="stylesheet" type="text/css" href="Minha pagina.css" media="screen" /> 
+</head>
+
+<body>
+    <body>
+        <div class="menu" onclick="toggleMenu()">
+            ☰ Menu
+            <div class="menu-items" id="menuItems">
+                <a href="index.html">Home</a>
+                <a href="troll.html">Estacio</a>
+                <a href="">Aluno</a>
+                <a href="Aula 3 topico 4 exemplos.html">Formulario</a>
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById("menuItems");
+                menu.style.display = menu.style.display === "block" ? "none" : "block";
+            }
+            
+            // Fechar menu ao clicar fora
+            document.addEventListener("click", function(event) {
+                var menu = document.getElementById("menuItems");
+                var button = document.querySelector(".menu");
+                if (!button.contains(event.target)) {
+                    menu.style.display = "none";
+                }
+            });
+        </script>
+    
+
+    <img src="https://foprop.org.br/wp-content/uploads/jet-engine-forms/guest/2023/03/ESTACIO.jpg">
+    <h2>Polo:R9(taquara)</h2>
+    <img src="img/imagem_.jpeg" alt="" width="200px">
+    <h2>•Nome:João Pedro Matos Siqueira</h2>
+    <h2>•Matricula:202502522207</h2>
+    <h2>•Gmail:202502522207@alunos.estacio.br</h2>
+    <pre>
+        <img src="" alt="">
+</body>
+</html>
